@@ -16,19 +16,21 @@ function Row(props){
             setMovies(request.data.results);
             return request;
         }   
-        fetchdata();
+    fetchdata();
+            
+       
     },[props.fetchurl]);
     //run only when [] changes hence it never changes it only run once
     // dependend on []
-    console.table(movies);
-
     return(
         <div className="row">
             <h2>{props.title}</h2>
 
             <div className="row_posters">
                 {movies.map((movie)=>{
-                    return (<img key={movie.id} src={baseImgUrl + movie.poster_path} alt={movie.original_name} />)
+                    return (<img key={movie.id} 
+                        src={baseImgUrl +  (props.isLargeRow ? movie.backdrop_path : movie.poster_path)} 
+                        alt={movie.original_name} />)
                 })}
             </div>
 
