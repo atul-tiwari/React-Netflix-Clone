@@ -1,5 +1,4 @@
 .row_posters img {
-  width: 200px;
   margin-left: 10px;
   transition: transform 450ms;
 }

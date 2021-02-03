@@ -28,6 +28,7 @@ function Banner() {
             </div>
             <p>{bannerMovie.overview?.length > 150 ? (bannerMovie.overview?.substr(0,149) + "...") :  bannerMovie.overview}</p>
             </div>
+            <div className="banner-grad"></div>
         </header>
     )
 }

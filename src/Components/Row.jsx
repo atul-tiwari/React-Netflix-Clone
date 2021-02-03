@@ -30,7 +30,8 @@ function Row(props){
                 {movies.map((movie)=>{
                     return (<img key={movie.id} 
                         src={baseImgUrl +  (props.isLargeRow ? movie.backdrop_path : movie.poster_path)} 
-                        alt={movie.original_name} />)
+                        alt={movie.original_name} 
+                            style={{width: ((props.isLargeRow) ? "280px" : "200px") }}/>)
                 })}
             </div>
 
