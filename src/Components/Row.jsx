@@ -1,11 +1,11 @@
 import React,{useState, useEffect} from 'react';
 import axios from '../axios';
-
+import '../CSS/Row.css';
 
 
 function Row(props){
 
-    const baseImgUrl = "https://image.tmdb.org/t/p/original";
+    const baseImgUrl = "https://image.tmdb.org/t/p/w500";
 
     const [movies,setMovies] = useState([]);
 

@@ -1,0 +1,18 @@
+.row_posters img {
+  width: 200px;
+  margin-left: 10px;
+  transition: transform 450ms;
+}
+.row_posters img:hover {
+  transform: scale(1.08);
+}
+.row_posters {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
