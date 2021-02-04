@@ -8,6 +8,13 @@ Atul Tiwari (atul-tiwari)
 
 Link :- [Netflix Clone "https://netflix-clone-7ede8.web.app/"](https://netflix-clone-7ede8.web.app/)
 
+#ScreenCaps
+
+![Netflix png1](https://user-images.githubusercontent.com/24614316/106923968-9e7ec300-6734-11eb-9adb-cc657a22995e.PNG).
+![Netflix png2](https://user-images.githubusercontent.com/24614316/106923979-a0e11d00-6734-11eb-80fa-c4396f60c521.PNG).
+![Netflix png3](https://user-images.githubusercontent.com/24614316/106923983-a2124a00-6734-11eb-855d-8402fec619aa.PNG).
+![Netflix png4](https://user-images.githubusercontent.com/24614316/106923986-a2aae080-6734-11eb-8444-b28b6746acff.PNG).
+![Netflix png5](https://user-images.githubusercontent.com/24614316/106923988-a3437700-6734-11eb-917b-8f6c897212b1.PNG).
 
 # Getting Started with Create React App
 
