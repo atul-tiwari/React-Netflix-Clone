@@ -6,13 +6,7 @@ A Netflix clone built using React js . It fetches the data from TMDB (The Movie 
 
 Atul Tiwari (atul-tiwari)
 
-
-
-
-
-
-
-
+Link :- [Netflix Clone "https://netflix-clone-7ede8.web.app/"](https://netflix-clone-7ede8.web.app/)
 
 
 # Getting Started with Create React App
